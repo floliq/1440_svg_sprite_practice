@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Sprites Practice</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1 class="content__heading">Как это работает?</h1>
+        <div class="content__wrapper">
+          <div class="content__info">
+            <svg class="content__picture" width="375" height="288">
+              <use xlink:href="img/sprites.svg#coffee"></use>
+            </svg>
+            <h3 class="content__title">
+              Утренний <span class="content__title-orange">кофе</span>
+            </h3>
+            <p class="content__desc">
+              Кофеин воздействует на центральную нервную систему как природный
+              “будильник”. Поэтому мы быстрее просыпаемся.
+            </p>
+          </div>
+          <div class="content__info">
+            <svg class="content__picture" width="375" height="288">
+              <use xlink:href="img/sprites.svg#meditating"></use>
+            </svg>
+            <h3 class="content__title">
+              Час <span class="content__title-orange">медитации</span>
+            </h3>
+            <p class="content__desc">
+              После практик оба полушария мозга начинают работать
+              сбалансированно — это привносит порядок в вашу жизнь.
+            </p>
+          </div>
+          <div class="content__info">
+            <svg class="content__picture" width="375" height="288">
+              <use xlink:href="img/sprites.svg#sprinting"></use>
+            </svg>
+            <h3 class="content__title">
+              Вперёд к <span class="content__title-orange">свершениям!</span>
+            </h3>
+            <p class="content__desc">
+              Ресурсы каждого человека ограничены, поэтому нам необходимо беречь
+              себя и вовремя останавливаться.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="socials">
+        <div class="social-left">
+          <h2 class="social-left__subheading">
+            Интеграция со сторонними сервисами
+          </h2>
+          <p class="social-left__text">
+            Поможет всегда оставаться в курсе всех событий, быть максимально
+            эффективным на протяжении всего рабочего дня, контролировать свои
+            задачи и не опоздать на запланированные встречи.
+          </p>
+        </div>
+        <div class="social-right">
+          <div class="social-right__top">
+            <a href="#" class="social-right__link top">
+              <svg class="social-right__picture" width="70" height="70">
+                <use xlink:href="img/sprites.svg#fb"></use>
+              </svg>
+            </a>
+            <a href="#" class="social-right__link top">
+              <svg class="social-right__picture" width="70" height="70">
+                <use xlink:href="img/sprites.svg#trello"></use>
+              </svg>
+            </a>
+            <a href="#" class="social-right__link top">
+              <svg class="social-right__picture" width="70" height="70">
+                <use xlink:href="img/sprites.svg#worklio"></use>
+              </svg>
+            </a>
+            <a href="#" class="social-right__link top">
+              <svg class="social-right__picture" width="70" height="70">
+                <use xlink:href="img/sprites.svg#dropbox"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="social-right__bottom">
+            <a href="#" class="social-right__link bottom">
+              <svg class="social-right__picture" width="70" height="70">
+                <use xlink:href="img/sprites.svg#google"></use>
+              </svg>
+            </a>
+            <a href="#" class="social-right__link bottom">
+              <svg class="social-right__picture" width="70" height="70">
+                <use xlink:href="img/sprites.svg#social"></use>
+              </svg>
+            </a>
+            <a href="#" class="social-right__link bottom">
+              <svg class="social-right__picture" width="70" height="70">
+                <use xlink:href="img/sprites.svg#slack"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="social__background">
+          <svg class="social-right__picture" width="550" height="275">
+            <use xlink:href="img/sprites.svg#half-ellipse"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
